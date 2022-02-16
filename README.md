@@ -7,16 +7,16 @@ This is a very basic proxy scraper that scrapes http, socks4 and socks5 proxies 
 
 ### Socials
 
-[Youtube](https://www.youtube.com/channel/UCaMOw0q18gUbw2OAIfv4qMQ)
-[Discord](https://discord.gg/7anBydnRmq)
+* [Youtube](https://www.youtube.com/channel/UCaMOw0q18gUbw2OAIfv4qMQ)
+* [Discord](https://discord.gg/7anBydnRmq)
 
 ### Terms of Service
 
-If you use this tool maliciously, I am not to blame
-Don't sell this tool
+* If you use this tool maliciously, I am not to blame
+* Don't sell this tool
 
 ### Extra Notes
 
-Please don't skid this \n
-Join my server for extra tools \n 
-Give me creds on this \n
+* Please don't skid this 
+* Join my server for extra tools 
+* Give me creds on this 
