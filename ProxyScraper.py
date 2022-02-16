@@ -11,7 +11,9 @@ def http():
     proxywrite.write(ProxyRequest.text)
     print(Fore.RED + "Loading..." + Fore.RESET)
     time.sleep(2)
-    print(Fore.GREEN + ProxyRequest.text + Fore.RESET)
+    for i in ProxyRequest:
+        
+        print(Fore.GREEN + ProxyRequest.text +  Fore.RESET)
     time.sleep(3)
     print(Fore.GREEN + "Succesfully Scraped Proxies And Put Into Proxies.txt"+ Fore.RESET)
     time.sleep(2)
@@ -27,7 +29,8 @@ def socks4():
     proxywrite.write(secondone.text)
     print(Fore.RED + "Loading..." + Fore.RESET)
     time.sleep(2)
-    print(Fore.GREEN + secondone.text + Fore.RESET)
+    for i in secondone:
+     print(Fore.GREEN + secondone.text + Fore.RESET)
     time.sleep(3)
     print(Fore.GREEN + "Succesfully Scraped Proxies And Put Into Proxies.txt"+ Fore.RESET)
     time.sleep(2)
@@ -43,7 +46,8 @@ def socks5():
     proxywrite.write(thirdone.text)
     print(Fore.RED + "Loading..." + Fore.RESET)
     time.sleep(2)
-    print(Fore.GREEN + thirdone.text + Fore.RESET)
+    for i in thirdone:
+     print(Fore.GREEN + thirdone.text + Fore.RESET)
     time.sleep(3)
     print(Fore.GREEN + "Succesfully Scraped Proxies And Put Into Proxies.txt"+ Fore.RESET)
     time.sleep(2)
@@ -60,14 +64,18 @@ def all():
      proxywrite.write(proxyrequest.text)
      print(Fore.RED + "Loading..." + Fore.RESET)
      time.sleep(3)
-     print(Fore.GREEN + proxyrequest.text + Fore.RESET)
+     for i in proxyrequest:
+      print(Fore.GREEN + proxyrequest.text + Fore.RESET)
+      print(Fore.RED + "Loading Socks4 Proxies..." + Fore.RED)
      time.sleep(3)
 
      sockfour = requests.get("https://api.proxyscrape.com?request=getproxies&proxytype=Socks4")
      with open("Socks4Proxies.txt", "w") as proxywrite:
       proxywrite.write(sockfour.text)
       time.sleep(3)
-      print(Fore.GREEN + sockfour.text + Fore.RESET)
+      for i in sockfour:
+       print(Fore.GREEN + sockfour.text + Fore.RESET)
+       print(Fore.RED + "Loading Socks5 Proxies..." + Fore.RED)
       time.sleep(3)
       
 
@@ -75,7 +83,8 @@ def all():
       with open("Socks5Proxies.txt", "w") as proxywrite:
         proxywrite.write(sockfive.text)
         time.sleep(3)
-        print(Fore.GREEN + sockfive.text + Fore.RESET)
+        for i in sockfive:
+         print(Fore.GREEN + sockfive.text + Fore.RESET)
         time.sleep(3)
         print(Fore.GREEN + "Succesfully Scraped Proxies"+ Fore.RESET)
         time.sleep(2)
