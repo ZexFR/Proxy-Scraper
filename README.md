@@ -17,6 +17,6 @@ Don't sell this tool
 
 # Extra Notes
 
-Please don't skid this 
-Join my server for extra tools
-Give me creds on this
+Please don't skid this \n
+Join my server for extra tools \n 
+Give me creds on this \n
