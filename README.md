@@ -22,3 +22,4 @@ This is a very basic proxy scraper that scrapes http, socks4 and socks5 proxies 
 * Please don't skid this 
 * Join my server for extra tools 
 * Give me creds on this 
+* You must be using a vpn whilst using this tool
