@@ -10,7 +10,7 @@ This is a very basic proxy scraper that scrapes http, socks4 and socks5 proxies 
 ### Socials
 
 * [Youtube](https://www.youtube.com/channel/UCaMOw0q18gUbw2OAIfv4qMQ)
-* [Discord](https://discord.gg/7anBydnRmq)
+* [Discord](https://discord.gg/CXqVjwzPG5)
 
 ### Terms of Service
 
